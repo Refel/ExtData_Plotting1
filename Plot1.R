@@ -13,5 +13,5 @@ elecdata$Global_active_power<-(as.numeric(as.character(elecdata$Global_active_po
 
 #openning file to save graph and generating the Plot1.png
 png("Plot1.png")
-hist(elecdata$Global_active_power,,main="Global Active Power", xlab="Global Active Power (kilowatts)",ylab="Frequency",col="red")
+hist(elecdata$Global_active_power,,main="Global Active Power", xlab="Global Active Power (kilowatts)",ylab="",col="red")
 dev.off() 
