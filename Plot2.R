@@ -16,6 +16,6 @@ elecdata$Global_active_power<-(as.numeric(as.character(elecdata$Global_active_po
 
 #openning file to save graph and generating the Plot1.png
 png("Plot2.png")
-plot(x,elecdata$Global_active_power, ylab="Global Active Power (kilowatts)",xlab="Frequency",col="black",type="n")
+plot(x,elecdata$Global_active_power, ylab="Global Active Power (kilowatts)",xlab="",col="black",type="n")
 lines(x,elecdata$Global_active_power)
 dev.off() 

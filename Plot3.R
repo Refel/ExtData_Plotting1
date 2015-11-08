@@ -18,7 +18,7 @@ elecdata$Sub_metering_3<-(as.numeric(as.character(elecdata$Sub_metering_3)))
 
 #openning file to save graph and generating the Plot3.png
 png("Plot3.png")
-plot(x,elecdata$Sub_metering_1, ylab="Energy sub metering",xlab="Frequency",col="black",type="n")
+plot(x,elecdata$Sub_metering_1, ylab="Energy sub metering",xlab="",col="black",type="n")
 lines(x,elecdata$Sub_metering_1,col="black")
 lines(x,elecdata$Sub_metering_2,col="red")
 lines(x,elecdata$Sub_metering_3,col="blue")
